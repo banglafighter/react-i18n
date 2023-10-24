@@ -1,7 +1,6 @@
 {
-  "name": "react-i18n",
-  "version": "1.0.0",
-  "private": true,
+  "name": "react-rapid-i18n",
+  "version": "0.0.1",
   "dependencies": {},
   "scripts": {
     "start": "webpack-dev-server",
