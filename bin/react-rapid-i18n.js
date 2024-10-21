@@ -44,4 +44,3 @@ export const _loadTranslation = (lang, translation) => {
     resources[lang].translation = { ...resources[lang].translation, ...translation };
 };
 export { i18n, useTranslation, Trans };
-//# sourceMappingURL=react-rapid-i18n.js.map
