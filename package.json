@@ -3,16 +3,21 @@
   "version": "0.0.1",
   "dependencies": {
     "i18next": "^21.6.14",
-    "react-i18next": "^11.16.1",
-    "i18next-browser-languagedetector": "^6.1.3"
+    "i18next-browser-languagedetector": "^6.1.3",
+    "react-i18next": "^11.16.1"
   },
-  "scripts": {},
+  "scripts": {
+    "prepublishOnly": "node prepublish.js && tsc",
+    "release": "cross-env RELEASE_MODE=true np --no-tests --branch release-test"
+  },
   "eslintConfig": {
     "extends": [
       "react-app"
     ]
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
+    "np": "^10.0.7",
     "ts-loader": "^9.2.6",
     "webpack": "^5.58.2"
   },
