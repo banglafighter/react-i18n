@@ -15,6 +15,7 @@
     "app/react-rapid-i18n.tsx"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "bin"
   ]
 }
