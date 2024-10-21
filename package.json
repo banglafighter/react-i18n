@@ -10,7 +10,7 @@
   "main": "react-rapid-i18n.js",
   "scripts": {
     "watch": "tsc -w",
-    "prepublishOnly": "node ../prepublish.js && tsc",
+    "prepublishOnly": "node prepublish.js && tsc",
     "release": "cross-env RELEASE_MODE=true np --no-tests --branch release-test"
   },
   "keywords": [],
