@@ -1,6 +1,6 @@
 {
   "name": "react-rapid-i18n",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "",
   "dependencies": {
     "i18next": "^21.6.14",
