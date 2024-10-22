@@ -3,7 +3,10 @@ import {initReactI18next, useTranslation, Trans} from "react-i18next";
 import LanguageDetector from 'i18next-browser-languagedetector';
 import i18next from "i18next";
 
-let resources: any = {};
+let resources: any = {
+    en: {bangla: "Bangla"},
+    bn: {bangla: "বাংলা"},
+};
 
 i18n
     .use(initReactI18next)
